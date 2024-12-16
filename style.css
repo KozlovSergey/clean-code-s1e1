@@ -5,27 +5,6 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.matrix {
-  width: 500px;
-  margin: 0 auto;
-  display: block;
-  text-align: right;
-}
-
-.matrix__image {
-  width: 100%;
-}
-
-.matrix__link {
-  font-family: fantasy, cursive;
-}
-
-@media (max-width: 768px) {
-  .matrix {
-    text-align: center;
-  }
-}
-
 .container {
   display: block;
   width: 500px;
@@ -70,8 +49,7 @@ button:hover {
 }
 
 /* Heading */
-h3,
-label[for="add-item-input"] {
+h3 {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -98,9 +76,30 @@ input[type="text"]:focus {
   color: #333;
 }
 
-/* New Task */
-label[for="add-item-input"] {
+/* Matrix */
+.matrix {
+  width: 500px;
+  margin: 0 auto;
   display: block;
+  text-align: right;
+}
+
+.matrix__image {
+  width: 100%;
+}
+
+.matrix__link {
+  font-family: fantasy, cursive;
+}
+
+@media (max-width: 768px) {
+  .matrix {
+    text-align: center;
+  }
+}
+
+/* New Task */
+#add-item h3 {
   margin: 0 0 20px;
 }
 
