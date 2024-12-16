@@ -17,7 +17,7 @@ body {
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.add-item {
   display: flex;
 }
 
@@ -99,11 +99,11 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-#add-item h3 {
+#section-add h3 {
   margin: 0 0 20px;
 }
 
-input#add-item-input {
+input#add-item__input {
   width: 318px;
 }
 
