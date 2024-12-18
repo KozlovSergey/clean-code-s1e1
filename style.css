@@ -61,7 +61,8 @@ button:hover {
   text-transform: uppercase;
 }
 
-input[type="text"] {
+#add-item__input,
+.task-item__input-text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -74,7 +75,8 @@ input[type="text"] {
   color: #888;
 }
 
-input[type="text"]:focus {
+#add-item__input:focus,
+.task-item__input-text:focus {
   color: #333;
 }
 
@@ -105,7 +107,7 @@ input[type="text"]:focus {
   margin: 0 0 20px;
 }
 
-input#add-item__input {
+#add-item__input {
   width: 318px;
 }
 
